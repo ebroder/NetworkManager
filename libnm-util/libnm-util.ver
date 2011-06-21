@@ -103,6 +103,12 @@ global:
 	nm_setting_802_1x_get_ca_cert_path;
 	nm_setting_802_1x_get_ca_cert_scheme;
 	nm_setting_802_1x_get_ca_path;
+	nm_setting_802_1x_get_subject_match;
+	nm_setting_802_1x_get_num_altsubject_matches;
+	nm_setting_802_1x_get_altsubject_match;
+	nm_setting_802_1x_add_altsubject_match;
+	nm_setting_802_1x_remove_altsubject_match;
+	nm_setting_802_1x_clear_altsubject_matches;
 	nm_setting_802_1x_get_client_cert_blob;
 	nm_setting_802_1x_get_client_cert_path;
 	nm_setting_802_1x_get_client_cert_scheme;
@@ -120,6 +126,12 @@ global:
 	nm_setting_802_1x_get_phase2_ca_cert_path;
 	nm_setting_802_1x_get_phase2_ca_cert_scheme;
 	nm_setting_802_1x_get_phase2_ca_path;
+	nm_setting_802_1x_get_phase2_subject_match;
+	nm_setting_802_1x_get_num_phase2_altsubject_matches;
+	nm_setting_802_1x_get_phase2_altsubject_match;
+	nm_setting_802_1x_add_phase2_altsubject_match;
+	nm_setting_802_1x_remove_phase2_altsubject_match;
+	nm_setting_802_1x_clear_phase2_altsubject_matches;
 	nm_setting_802_1x_get_phase2_client_cert_blob;
 	nm_setting_802_1x_get_phase2_client_cert_path;
 	nm_setting_802_1x_get_phase2_client_cert_scheme;
